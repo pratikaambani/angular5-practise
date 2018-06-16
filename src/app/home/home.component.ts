@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
 //   template: `
 //   <p> This is inline html</p>
 // `,
-  styleUrls: ['./home.component.scss']
+//styleUrls: ['./home.component.scss']
+styles: [`
+  p {font-weight: bold}
+  div {color: grey;}
+`]
 })
 export class HomeComponent implements OnInit {
 
