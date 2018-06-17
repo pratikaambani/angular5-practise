@@ -1,5 +1,9 @@
 Angular 5 Course:
 
+Learn Angular 5 from Scratch
+Udemy URL: https://www.udemy.com/angular-5/learn/v4/
+github URL: 
+
 01. Installation and Setup
 --------------------------
 
@@ -96,3 +100,15 @@ ng generate service data
 
 write service in newly generated data.service.ts
 import it in module and then home component and create instance(DI) in constructor
+
+08. Deployment
+--------------
+build: CLI - ng build - check vendor.js [Bulky]
+ng build --prod : Check size of vendor.js
+ng build --prod --base-href="url/to/path"
+
+using github pages: npm install -g angular-cli-ghpages
+
+build codebase which is in github: ng build --prod --base-href="url/to/github/repo"
+angular-cli-ghpages
+
