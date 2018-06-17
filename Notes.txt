@@ -85,3 +85,11 @@ import router library
 and set link, we'll be able to nevigate between component
 
 
+07. Services
+------------
+services files:
+Access code across multiple components: 
+for making http calls
+for sharing data between components
+
+ng generate service data
