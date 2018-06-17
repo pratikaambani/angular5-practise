@@ -54,3 +54,6 @@ and based on changes made in view, component is changing spontaneously
 Event Binding:
 when we wish to save particular input
 clickEvent: 
+
+Now lets display whatever data is pushed.
+    <p class="life-container" *ngFor="let randomGoal of goals">{{randomGoal}}</p>
