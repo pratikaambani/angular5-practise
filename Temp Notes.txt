@@ -57,3 +57,11 @@ clickEvent:
 
 Now lets display whatever data is pushed.
     <p class="life-container" *ngFor="let randomGoal of goals">{{randomGoal}}</p>
+
+
+05. Animation
+-------------
+
+install/import: npm install @angular/animations@latest --save
+
+Add BrowserAnimationsModule
