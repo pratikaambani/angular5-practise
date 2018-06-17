@@ -65,3 +65,8 @@ Now lets display whatever data is pushed.
 install/import: npm install @angular/animations@latest --save
 
 Add BrowserAnimationsModule
+
+05. Routing
+-----------
+
+Add components in app-routing.module.ts and we'll be able to navigate between Home and About pages
