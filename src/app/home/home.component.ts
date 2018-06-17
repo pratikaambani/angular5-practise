@@ -14,6 +14,10 @@ styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
 
+  PSID: number = 44128778;
+  itemCount: number = 4;
+  btnText: string = 'Add an Item';
+  
   constructor() { }
 
   ngOnInit() {
