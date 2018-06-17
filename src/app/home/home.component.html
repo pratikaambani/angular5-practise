@@ -20,6 +20,6 @@
     </form>
   </div>
   <div class="col">
-    <p class="life-container" *ngFor="let randomGoal of goals">{{randomGoal}}</p>
+    <p class="life-container" *ngFor="let randomGoal of goals, let i = index" (click)="removeItem(i)">{{randomGoal}}</p>
   </div>
 </div>
