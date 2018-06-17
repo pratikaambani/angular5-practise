@@ -70,3 +70,5 @@ Add BrowserAnimationsModule
 -----------
 
 Add components in app-routing.module.ts and we'll be able to navigate between Home and About pages
+
+Done: Hit http://localhost:4200/about/727682 
