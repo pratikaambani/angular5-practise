@@ -93,3 +93,6 @@ for making http calls
 for sharing data between components
 
 ng generate service data
+
+write service in newly generated data.service.ts
+import it in module and then home component and create instance(DI) in constructor
