@@ -79,3 +79,9 @@ Use ActivatedRoute, dependency Injection
   constructor(private route: ActivatedRoute) {
     this.route.params.subscribe(res => console.log('Bingo!! We were successfully able to retrieve value from query parameter: ' +res.id));
   }
+
+Component based router navigation:
+import router library
+and set link, we'll be able to nevigate between component
+
+
