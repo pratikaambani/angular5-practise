@@ -2,7 +2,8 @@ Angular 5 Course:
 
 Learn Angular 5 from Scratch
 Udemy URL: https://www.udemy.com/angular-5/learn/v4/
-github URL: 
+github URL: https://github.com/pratikaambani/angular5-practise
+Local URL: E:\setup\repositories\programming\ng5\
 
 01. Installation and Setup
 --------------------------
