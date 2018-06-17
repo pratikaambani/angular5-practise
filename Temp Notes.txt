@@ -50,3 +50,7 @@ import formsModule
 Now we are making it bi directional
 from component view is rendered as 'My first life goal'
 and based on changes made in view, component is changing spontaneously
+
+Event Binding:
+when we wish to save particular input
+clickEvent: 
