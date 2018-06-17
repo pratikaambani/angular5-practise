@@ -1,0 +1,52 @@
+Angular 5 Course:
+
+01. Installation and Setup
+--------------------------
+
+Installing angular: npm install -g @angular/cli
+
+new project: ng new ng5 --style=scss --routing
+
+to start: ng serve
+
+02. Components
+-------------
+
+Components: building Blocks
+Structured in 3 different sections
+1. Import: 
+2. Decorator: specify different properties that help define structure of components(selector, templateUrl, style)
+3. export class components:
+
+new component:
+ng generate component home
+ng g c about
+
+app.component.html
+Contains current default view
+
+03. Templating & Styling
+-----------------------
+
+inline comments using template in ts file: styles:
+
+Appending styles
+
+04. Interpolation, Property & Event Binding
+-------------------------------------------
+
+View is built but no logic is embedded, to make it function using prop n event binding
+
+Interpolation: Making the communication possible from component to view(one direction)
+same: value="{{btnText}}" or [value]="btnText"
+
+Two way data binding:ng model
+
+import formsModule
+  goalText: string = 'My first life goal';
+  <input type="text" class="txt" name="item" placeholder="Life goal..."[(ngModel)]="goalText">
+  <br /> <span>{{goalText}}</span>
+
+Now we are making it bi directional
+from component view is rendered as 'My first life goal'
+and based on changes made in view, component is changing spontaneously
